@@ -1,0 +1,64 @@
+.card{
+    display: flex;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(82, 79, 79);
+}
+
+.card__content{
+ margin-top: 30px;   
+ margin-left: 50px;
+}
+.card__title{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.card__text{
+    font-size: 19px;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+.card__btn{
+    position: relative;
+    margin-right: 20px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.1;
+    background: #ed9375;
+    color: #ffff;
+    padding: 18px 70px;
+    border-radius: 25px;
+    transition: all .4s ease-in-out;
+    box-shadow: 17px 15px 47px -1px rgba(240, 134, 99, 0.2);
+    cursor: pointer;
+
+}
+.card__btn:hover{
+    background: #e97f5c;
+    border-radius: 5px;
+    transform: scale(1.02);
+}
+.button__inner{
+    display: flex;
+    align-items: center;
+}
+.favorite__img{
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+}
+.favorite__img:hover{
+    transform: scale(1.1);
+}
+.price__inner{
+    margin-bottom: 25px;
+    margin-left: 5px;
+}
+.price{
+    font-size: 22px;
+}
+.price b {
+    margin-left: 5px;
+    font-size: 24px;
+}

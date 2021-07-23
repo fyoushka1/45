@@ -1,0 +1,12 @@
+.all__items-title{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
